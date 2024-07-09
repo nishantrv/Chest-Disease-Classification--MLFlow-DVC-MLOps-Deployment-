@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/nishantrv/Chest-Disease-Classification--MLFlow-DVC-MLOps-Deployment-
+Author: nishantrv
+Author-email: nishantranjanverma@gmail.com
+Project-URL: Bug Tracker, https://github.com/nishantrv/Chest-Disease-Classification--MLFlow-DVC-MLOps-Deployment-/issues
+License-File: LICENSE
+
+# MLOps-End-to-End-Chest-Disease-Classification-From-CT-Scan-Image-
