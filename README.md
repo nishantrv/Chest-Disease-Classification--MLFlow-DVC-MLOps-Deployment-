@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2b39807b55767ff0b13f0cdb0252eeb67034a9ec
 ## Workflow
 
 1.Update config.yaml
@@ -9,7 +13,7 @@
 7.Update the main.py
 8.Update the dvc.yaml
 
-###
+# MLFlow
 
 import dagshub
 dagshub.init(repo_owner='nishantrv', repo_name='testing', mlflow=True)
