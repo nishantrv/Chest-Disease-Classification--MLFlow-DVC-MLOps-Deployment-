@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/Chest-Disease-Classification--MLFlow-DVC-MLOps-Deployment-/research/mlruns/0/c5f162e97c9a4805af5652bc80253e38/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c5f162e97c9a4805af5652bc80253e38
+run_name: honorable-wolf-814
+run_uuid: c5f162e97c9a4805af5652bc80253e38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720859943538
+status: 1
+tags: []
+user_id: nisha

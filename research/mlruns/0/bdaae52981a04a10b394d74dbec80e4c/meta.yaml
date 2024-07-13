@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/Chest-Disease-Classification--MLFlow-DVC-MLOps-Deployment-/research/mlruns/0/bdaae52981a04a10b394d74dbec80e4c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bdaae52981a04a10b394d74dbec80e4c
+run_name: capricious-kit-482
+run_uuid: bdaae52981a04a10b394d74dbec80e4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720860387288
+status: 1
+tags: []
+user_id: nisha
