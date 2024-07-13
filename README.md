@@ -10,7 +10,7 @@
 7.Update the main.py
 8.Update the dvc.yaml
 
-###
+# MLFlow
 
 import dagshub
 dagshub.init(repo_owner='nishantrv', repo_name='testing', mlflow=True)
@@ -19,7 +19,7 @@ import mlflow
 with mlflow.start_run():
   mlflow.log_param('parameter name', 'value')
   mlflow.log_metric('metric name', 1)
-=======
+
 # MLOps-End-to-End-Chest-Disease-Classification-From-CT-Scan-Image-
 
 
