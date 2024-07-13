@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Workflow
 
 1.Update config.yaml
@@ -39,4 +39,3 @@ export MLFLOW_TRACKING_USERNAME=nishantrv
 
 export MLFLOW_TRACKING_PASSWORD=82a542eedc8c127c1e65c083e6950b114f3808c0
 
->>>>>>> 576172b327ff437e5b9c75254f1c28ee581c89a0
