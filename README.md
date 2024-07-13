@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 2b39807b55767ff0b13f0cdb0252eeb67034a9ec
 ## Workflow
 
 1.Update config.yaml
