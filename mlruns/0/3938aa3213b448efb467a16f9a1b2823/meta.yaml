@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/Projects/Chest-Disease-Classification--MLFlow-DVC-MLOps-Deployment-/mlruns/0/3938aa3213b448efb467a16f9a1b2823/artifacts
+end_time: 1720951566805
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3938aa3213b448efb467a16f9a1b2823
+run_name: luminous-zebra-622
+run_uuid: 3938aa3213b448efb467a16f9a1b2823
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720951565251
+status: 4
+tags: []
+user_id: nisha
