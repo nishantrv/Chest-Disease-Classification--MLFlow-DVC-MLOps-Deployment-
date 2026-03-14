@@ -37,25 +37,9 @@ Building a CNN that classifies images is straightforward. Building one that's **
 
 ## 🏗 Architecture
 
-```
-┌──────────────┐     ┌──────────────┐     ┌──────────────────┐
-│  CT Scan      │────▶│  Data        │────▶│  Base Model      │
-│  Images       │     │  Ingestion   │     │  Preparation     │
-│  (Google Drive)│    │  + Validation │     │  (VGG16 Transfer)│
-└──────────────┘     └──────────────┘     └────────┬─────────┘
-                                                    │
-                                                    ▼
-┌──────────────┐     ┌──────────────┐     ┌──────────────────┐
-│  Flask Web    │◀────│  Docker      │◀────│  Model Training  │
-│  App (EC2)    │     │  Container   │     │  + Evaluation     │
-└──────┬───────┘     └──────────────┘     │  (MLflow logged)  │
-       │                     ▲            └──────────────────┘
-       │              ┌──────┴───────┐
-       │              │  CI/CD       │
-       └──────────────│  (GitHub     │
-                      │   Actions)   │
-                      └──────────────┘
-```
+> End-to-end MLOps pipeline from CT scan ingestion to AWS deployment
+
+![Architecture Diagram](assets/architecture.png)
 
 **Pipeline Flow:** CT scan images (sourced from Google Drive) → Data ingestion & validation → VGG16 base model preparation with ImageNet weights → Fine-tuning & training (logged to MLflow via DagsHub) → Evaluation with metric logging → Dockerise → Push to AWS ECR → Deploy to EC2 via CI/CD.
 
